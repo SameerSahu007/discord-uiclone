@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/discord-uiclone/static/css/main.4e7e566d.css",
-    "main.js": "/discord-uiclone/static/js/main.e6238ab2.js",
+    "main.js": "/discord-uiclone/static/js/main.ef57178f.js",
     "static/media/hanging_out_easy_landing.svg": "/discord-uiclone/static/media/hanging_out_easy_landing.0572906f3c0f5da8decc2b31915b6815.svg",
     "static/media/invite_only_landing.svg": "/discord-uiclone/static/media/invite_only_landing.dd354f82ddd6c497e26cbde9697234e5.svg",
     "static/media/uni-sans.heavy-caps.otf": "/discord-uiclone/static/media/uni-sans.heavy-caps.de76b17291d74c0a03b0.otf",
@@ -17,10 +17,10 @@
     "static/media/youtube_icon.svg": "/discord-uiclone/static/media/youtube_icon.6387c4e3ca35fad963a2bebce115e490.svg",
     "static/media/facebook_icon.svg": "/discord-uiclone/static/media/facebook_icon.33bb88f5074157a1713e32fbd97ab050.svg",
     "main.4e7e566d.css.map": "/discord-uiclone/static/css/main.4e7e566d.css.map",
-    "main.e6238ab2.js.map": "/discord-uiclone/static/js/main.e6238ab2.js.map"
+    "main.ef57178f.js.map": "/discord-uiclone/static/js/main.ef57178f.js.map"
   },
   "entrypoints": [
     "static/css/main.4e7e566d.css",
-    "static/js/main.e6238ab2.js"
+    "static/js/main.ef57178f.js"
   ]
 }
