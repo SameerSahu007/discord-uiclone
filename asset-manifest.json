@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/discord-uiclone/static/css/main.4e7e566d.css",
+    "main.js": "/discord-uiclone/static/js/main.e6238ab2.js",
+    "static/media/hanging_out_easy_landing.svg": "/discord-uiclone/static/media/hanging_out_easy_landing.0572906f3c0f5da8decc2b31915b6815.svg",
+    "static/media/invite_only_landing.svg": "/discord-uiclone/static/media/invite_only_landing.dd354f82ddd6c497e26cbde9697234e5.svg",
+    "static/media/uni-sans.heavy-caps.otf": "/discord-uiclone/static/media/uni-sans.heavy-caps.de76b17291d74c0a03b0.otf",
+    "static/media/fandom_landing.svg": "/discord-uiclone/static/media/fandom_landing.559552bfd926f1f818c1c9e2add4b4c1.svg",
+    "static/media/just_chiling_landing.svg": "/discord-uiclone/static/media/just_chiling_landing.e34171146fcee2389270930dc6958b7c.svg",
+    "static/media/login_bg.svg": "/discord-uiclone/static/media/login_bg.b67fa1d1e35090b9eda1.svg",
+    "static/media/left_bg_landing_header.svg": "/discord-uiclone/static/media/left_bg_landing_header.8979efef08413383d463.svg",
+    "static/media/center_bg_landing_header.svg": "/discord-uiclone/static/media/center_bg_landing_header.ac7760c0491146590845.svg",
+    "static/media/instagram_icon.svg": "/discord-uiclone/static/media/instagram_icon.f5c0653b77366454585042ff06de43bb.svg",
+    "static/media/discord_mini_icon.svg": "/discord-uiclone/static/media/discord_mini_icon.00dac257151ff9c06e12653bc9af320c.svg",
+    "index.html": "/discord-uiclone/index.html",
+    "static/media/twitter_icon.svg": "/discord-uiclone/static/media/twitter_icon.931adcd4c01af956b7d2bda42ba1ddda.svg",
+    "static/media/youtube_icon.svg": "/discord-uiclone/static/media/youtube_icon.6387c4e3ca35fad963a2bebce115e490.svg",
+    "static/media/facebook_icon.svg": "/discord-uiclone/static/media/facebook_icon.33bb88f5074157a1713e32fbd97ab050.svg",
+    "main.4e7e566d.css.map": "/discord-uiclone/static/css/main.4e7e566d.css.map",
+    "main.e6238ab2.js.map": "/discord-uiclone/static/js/main.e6238ab2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e7e566d.css",
+    "static/js/main.e6238ab2.js"
+  ]
+}
