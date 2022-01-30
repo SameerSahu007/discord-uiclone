@@ -1,0 +1,623 @@
+@font-face {
+  font-family: DiscordFont;
+  src: url(./fonts/uni-sans.heavy-caps.otf);
+}
+
+body {
+  margin: 0px;
+  overflow-x: hidden;
+  font-family: "Inconsolata", monospace;
+  /* font-family: DiscordFont; */
+}
+
+.--discord-logo {
+  color: #ffffff;
+  height: 61px;
+  width: 46px;
+}
+
+.--logoarea {
+  display: flex;
+  /* width: 30px;
+  height: 23.23px; */
+  align-items: center;
+}
+
+.--discordheading {
+  margin-left: 16px;
+  font-size: 30px;
+}
+
+.--navbar {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
+.--navlinks > a {
+  color: #ffffff;
+  font-size: 26px;
+  text-decoration: none;
+  margin-right: 60px;
+}
+
+.--openbutton {
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 50px;
+}
+
+
+
+.--openbutton :hover {
+  color: #404eed;
+  box-shadow: 5px solid grey;
+}
+
+.--sectionzero {
+  background-color: #404eed;
+  height: 620px;
+}
+
+.--openbutton > a {
+  text-decoration: none;
+  color: #070707;
+  font-size: 15px;
+}
+
+.--sectionone {
+  display: flex;
+  flex-direction: column;
+  /* height: 180px; */
+  /* width: 780px;  */
+  align-items: center;
+  background: url(./components/assets/left_bg_landing_header.svg);
+  background: url(./components/assets/center_bg_landing_header.svg);
+  background-repeat: no-repeat;
+}
+
+.--heropara {
+  word-wrap: normal;
+  width: 731px;
+  font-size: 20px;
+  padding-top: 0px;
+  margin-top: -63px;
+  word-spacing: 5px;
+  color: #ffffff;
+}
+
+.--herotitle {
+  color: #ffffff;
+  font-size: 70px;
+}
+
+.--sectiontwo {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -250px;
+}
+
+.--inviteimage {
+  height: 678px;
+  width: 753px;
+  /* flex: 1 1 20%; */
+}
+
+.--sectiontwoheading {
+  width: 279px;
+  height: 391px;
+  margin-left: 45px;
+  margin-top: -110px;
+  /* flex: 1 1 50%; */
+}
+
+.--sectiontwoheading > h1 {
+  font-size: 50px;
+  word-wrap: break-word;
+}
+
+.--sectiontwoheading > p {
+  font-size: 20px;
+  word-wrap: break-word;
+}
+
+.--sectionthree {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 680px;
+  background-color: #e9e9e9;
+}
+
+.--easylanding {
+  height: 678px;
+  width: 753px;
+}
+
+.--sectionthreeheading {
+  width: 279px;
+  height: 391px;
+  margin-left: 5px;
+  margin-right: 45px;
+  margin-top: -110px;
+}
+
+.--sectionthreeheading > h1 {
+  font-size: 42px;
+  word-wrap: break-word;
+}
+
+.--sectionthreeheading > p {
+  font-size: 30px;
+  word-wrap: break-word;
+  word-spacing: 9px;
+}
+
+.--sectionfour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  margin-top: 80px;
+}
+
+.--sectionfourimage {
+  height: 678px;
+  width: 753px;
+}
+
+.sectionfourheading {
+  width: 279px;
+  height: 391px;
+  margin-left: 45px;
+  margin-top: -250px;
+}
+
+.sectionfourheading > h1 {
+  font-size: 42px;
+  word-wrap: break-word;
+}
+
+.sectionfourheading > p {
+  font-size: 30px;
+  word-wrap: break-word;
+  word-spacing: 9px;
+}
+
+/* .--chiling {
+  height: 670px;
+  width: 440px;
+} */
+
+.--downloadsbuttone {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.--downloadbuttonone {
+  background-color: #ffffff;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.--downloadbuttonone :hover {
+  color : #404eed 
+}
+
+.--downloadbuttontwo {
+  margin-left: 20px;
+  background-color: #070707;
+  border-radius: 30px;
+  font-size: 20px;
+  padding: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.--downloadsbuttone :hover {
+  color: #0082e6;
+  box-shadow: 1px 1px #rgb(67, 68, 68)
+}
+
+.--downloadicon {
+  margin-right: 10px;
+}
+
+.--sectiontwo {
+  width: 1900px;
+  height: 680px;
+}
+
+.--sectionfive {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 680px;
+  background-color: #e9e9e9;
+}
+
+.sectionfiveheading {
+  width: 980px;
+  height: 127px;
+  text-align: center;
+}
+
+.sectionfiveheading > h1 {
+  font-size: 60px;
+}
+
+.sectionfiveheading > p {
+  font-size: 25x;
+}
+
+.--newimage {
+  height: 678px;
+  width: 753px;
+}
+
+.--sectionsix {
+  text-align: center;
+}
+
+.--sectionsix > a {
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  background-color: #5865f2;
+  color: #ffffff;
+}
+
+.--lastdownloadlink > a{
+  background-color: #5865f2;
+  padding: 10px;
+  border-radius: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.--footer {
+  background-color: #23272A;
+  display:  flex;
+  padding: 10px;
+  margin-top: 20px;
+  justify-content: space-evenly;
+}
+
+footer {
+  background-color: #23272A;
+}
+
+footer > hr {
+  color: #404eed;
+  margin: 0px 140px 0px 125px;
+  margin-top: 20px;
+}
+
+
+.footerpartone > h1{
+  color: #5865F2;
+}
+
+
+
+.--usaflag{
+  height: 20px;
+  margin-right: 10px;
+}
+
+.--flagnamecountry{
+  display: flex;
+  color:  white;
+  align-items: center;
+}
+.socialicons{
+  color: white;
+  display: flex;
+}
+.indisocial{
+  padding: 10px;
+}
+
+.--topic{
+  color: #5865F2;
+}
+
+.--products
+{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.--products > a{
+  padding: 10px;
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+
+.--company{
+  display: flex;
+  flex-direction: column;
+}
+
+.--company > a{
+  padding: 10px;
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+
+.--resources{
+  display: flex;
+  flex-direction: column;
+}
+
+.--resources > a {
+  padding: 10px;
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+.--policies{
+  display: flex;
+  flex-direction: column;
+}
+
+.--policies > a{
+  padding: 10px;
+  text-decoration:  none;
+  color: #ffffff;
+}
+
+.--footerparttow{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.--footerlogoandtext {
+  color: white;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -453px;
+  
+}
+
+.--discord-logo2 {
+  margin-right: 10px;
+  width: 30px;
+}
+
+.--footerlogoandtext{
+  margin-right: 700px;
+}
+
+.--footerlogoandtext > h1{
+  font-size: 20px;
+}
+
+
+.--footerparttow > a{
+  color:  white;
+  background-color: #404eed;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+
+.--logincontainer {
+display:  flex;
+justify-content: center;
+align-items: center;
+background: url(./components/assets/login_bg.svg) ;
+height: 100vh;
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+
+
+.--outerformcontainer{
+display: flex;
+background-color: #36393F;
+padding: 10px;
+border-radius: 10px;
+}
+
+
+
+form {
+  display: flex; 
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+label, input {
+  display: block; 
+}
+
+.--formHeading{
+  color: white;
+  margin-bottom: 2px;
+  text-align: center;
+
+}
+
+.--formsubheading {
+  text-align: center;
+  color: #B9BBBE;
+  margin-top: 5px;
+ 
+}
+
+.--email {
+  color: #B9BBBE;
+
+}
+
+
+.--password {
+  color: #B9BBBE;
+}
+
+.--formsection {
+  padding: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 10px;
+  margin: 8px 0 ;
+  box-sizing: border-box;
+  background-color: #313339;
+  border: 1px solid ;
+  text-align: left;
+  color: white;
+}
+
+
+
+.--qrcodeimage {
+  border: 10px solid white;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+
+
+.--loginwithqr{
+  color: white;
+}
+
+.--loginwithqrsub{
+  color: #B3B4B7;
+  text-align: center;
+}
+
+.--qrcodesection{
+  width: 30%;
+  margin-left: 30px;
+  text-align: center;
+  margin-right: -200px;
+}
+
+
+.--forgotpassword{
+  color : #00AFF4;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  text-decoration: none;
+}
+
+.--loginbutton{
+  background-color: #6270FB;
+  border: 0px;
+  border-radius:2px;
+  padding: 10px;
+  color: white;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: large;
+}
+
+.--needaccount{
+  color: #72767D;
+}
+
+.--registerlink{
+  color: #00AFF4;
+  text-decoration: none;
+}
+
+.--lastsectionoftheform {
+  display: flex;
+  align-items: center;
+}
+
+.--lastsectionoftheform  > a {
+  margin-left: 10px;
+}
+
+label {
+  padding-top: 10px;
+}
+
+.--registerfromouter{
+  background: url(./components/assets/login_bg.svg) ;
+height: 100vh;
+/* background-position: center; */
+background-repeat: no-repeat;
+background-size: cover;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.--registerform{
+  background-color: #36393F ;
+  padding: 10px 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 450px;
+}
+
+.--registerbutton{
+  background-color: #4350e2;
+  color: white;
+  padding: 10px;
+
+}
+
+.--registeremail{
+  color: #B9BBBE;
+}
+
+.--registerusername{
+  color:  #B9BBBE;
+}
+
+.--registerusername{
+  color: #B9BBBE;
+}
+
+.--registerheading{
+  color : #FFFFFF;
+  text-align: center;
+}
+
+.--registerform input {
+ padding: 12px 20px;
+ border-color: #040405 ;
+ border-radius: 3px;
+}
+
+.--alreadyaccount {
+  color: #00AFF4;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.--registerbutton{
+  border: 0px;
+  border-radius: 4px;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 10px;
+}
