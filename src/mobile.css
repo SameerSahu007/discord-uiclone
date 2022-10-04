@@ -1,0 +1,7 @@
+@media screen and (max-width: 768px) {
+  .--outerformcontainer {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+}
