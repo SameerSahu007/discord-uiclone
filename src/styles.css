@@ -49,8 +49,6 @@ body {
   border-radius: 50px;
 }
 
-
-
 .--openbutton :hover {
   color: #404eed;
   box-shadow: 5px solid grey;
@@ -213,7 +211,7 @@ body {
 }
 
 .--downloadbuttonone :hover {
-  color : #404eed 
+  color: #404eed;
 }
 
 .--downloadbuttontwo {
@@ -228,7 +226,7 @@ body {
 
 .--downloadsbuttone :hover {
   color: #0082e6;
-  box-shadow: 1px 1px #rgb(67, 68, 68)
+  box-shadow: 1px 1px rgb(67, 68, 68);
 }
 
 .--downloadicon {
@@ -279,7 +277,7 @@ body {
   color: #ffffff;
 }
 
-.--lastdownloadlink > a{
+.--lastdownloadlink > a {
   background-color: #5865f2;
   padding: 10px;
   border-radius: 20px;
@@ -288,15 +286,15 @@ body {
 }
 
 .--footer {
-  background-color: #23272A;
-  display:  flex;
+  background-color: #23272a;
+  display: flex;
   padding: 10px;
   margin-top: 20px;
   justify-content: space-evenly;
 }
 
 footer {
-  background-color: #23272A;
+  background-color: #23272a;
 }
 
 footer > hr {
@@ -305,95 +303,87 @@ footer > hr {
   margin-top: 20px;
 }
 
-
-.footerpartone > h1{
-  color: #5865F2;
+.footerpartone > h1 {
+  color: #5865f2;
 }
 
-
-
-.--usaflag{
+.--usaflag {
   height: 20px;
   margin-right: 10px;
 }
 
-.--flagnamecountry{
+.--flagnamecountry {
   display: flex;
-  color:  white;
+  color: white;
   align-items: center;
 }
-.socialicons{
+.socialicons {
   color: white;
   display: flex;
 }
-.indisocial{
+.indisocial {
   padding: 10px;
 }
 
-.--topic{
-  color: #5865F2;
+.--topic {
+  color: #5865f2;
 }
 
-.--products
-{
-  display: flex;
-  flex-direction: column;
-  
-}
-
-.--products > a{
-  padding: 10px;
-  text-decoration:  none;
-  color: #ffffff;
-}
-
-
-.--company{
+.--products {
   display: flex;
   flex-direction: column;
 }
 
-.--company > a{
+.--products > a {
   padding: 10px;
-  text-decoration:  none;
+  text-decoration: none;
   color: #ffffff;
 }
 
+.--company {
+  display: flex;
+  flex-direction: column;
+}
 
-.--resources{
+.--company > a {
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.--resources {
   display: flex;
   flex-direction: column;
 }
 
 .--resources > a {
   padding: 10px;
-  text-decoration:  none;
+  text-decoration: none;
   color: #ffffff;
 }
 
-.--policies{
+.--policies {
   display: flex;
   flex-direction: column;
 }
 
-.--policies > a{
+.--policies > a {
   padding: 10px;
-  text-decoration:  none;
+  text-decoration: none;
   color: #ffffff;
 }
 
-.--footerparttow{
+.--footerparttow {
   display: flex;
   justify-content: space-evenly;
 }
 
 .--footerlogoandtext {
   color: white;
-  display:  flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   margin-left: -453px;
-  
 }
 
 .--discord-logo2 {
@@ -401,79 +391,69 @@ footer > hr {
   width: 30px;
 }
 
-.--footerlogoandtext{
+.--footerlogoandtext {
   margin-right: 700px;
 }
 
-.--footerlogoandtext > h1{
+.--footerlogoandtext > h1 {
   font-size: 20px;
 }
 
-
-.--footerparttow > a{
-  color:  white;
+.--footerparttow > a {
+  color: white;
   background-color: #404eed;
   padding: 10px;
   text-decoration: none;
   border-radius: 40px;
 }
 
-
 .--logincontainer {
-display:  flex;
-justify-content: center;
-align-items: center;
-background: url(./components/assets/login_bg.svg) ;
-height: 100vh;
-/* background-position: center; */
-background-repeat: no-repeat;
-background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./components/assets/login_bg.svg);
+  height: 100vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-
-
-
-.--outerformcontainer{
-display: flex;
-background-color: #36393F;
-padding: 10px;
-border-radius: 10px;
+.--outerformcontainer {
+  display: flex;
+  background-color: #36393f;
+  padding: 10px;
+  border-radius: 10px;
 }
-
-
 
 form {
-  display: flex; 
+  display: flex;
   flex-direction: column;
   margin-right: 30px;
 }
 
-label, input {
-  display: block; 
+label,
+input {
+  display: block;
 }
 
-.--formHeading{
+.--formHeading {
   color: white;
   margin-bottom: 2px;
   text-align: center;
-
 }
 
 .--formsubheading {
   text-align: center;
-  color: #B9BBBE;
+  color: #b9bbbe;
   margin-top: 5px;
- 
 }
 
 .--email {
-  color: #B9BBBE;
-
+  color: #b9bbbe;
 }
 
-
 .--password {
-  color: #B9BBBE;
+  color: #b9bbbe;
 }
 
 .--formsection {
@@ -483,15 +463,13 @@ label, input {
 input {
   width: 100%;
   padding: 10px 10px;
-  margin: 8px 0 ;
+  margin: 8px 0;
   box-sizing: border-box;
   background-color: #313339;
-  border: 1px solid ;
+  border: 1px solid;
   text-align: left;
   color: white;
 }
-
-
 
 .--qrcodeimage {
   border: 10px solid white;
@@ -499,35 +477,35 @@ input {
   margin-top: 60px;
 }
 
-
-.--loginwithqr{
+.--loginwithqr {
+  max-width: 15rem;
   color: white;
 }
 
-.--loginwithqrsub{
-  color: #B3B4B7;
+.--qrcodesection {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.--qrcodesection{
-  width: 30%;
-  margin-left: 30px;
+.--qrcodesection > p {
+  color: #b3b4b7;
   text-align: center;
-  margin-right: -200px;
+  max-width: 15rem;
 }
 
-
-.--forgotpassword{
-  color : #00AFF4;
+.--forgotpassword {
+  color: #00aff4;
   margin-top: 10px;
   margin-bottom: 40px;
   text-decoration: none;
 }
 
-.--loginbutton{
-  background-color: #6270FB;
+.--loginbutton {
+  background-color: #6270fb;
   border: 0px;
-  border-radius:2px;
+  border-radius: 2px;
   padding: 10px;
   color: white;
   padding-top: 15px;
@@ -535,12 +513,12 @@ input {
   font-size: large;
 }
 
-.--needaccount{
-  color: #72767D;
+.--needaccount {
+  color: #72767d;
 }
 
-.--registerlink{
-  color: #00AFF4;
+.--registerlink {
+  color: #00aff4;
   text-decoration: none;
 }
 
@@ -549,7 +527,7 @@ input {
   align-items: center;
 }
 
-.--lastsectionoftheform  > a {
+.--lastsectionoftheform > a {
   margin-left: 10px;
 }
 
@@ -557,64 +535,62 @@ label {
   padding-top: 10px;
 }
 
-.--registerfromouter{
-  background: url(./components/assets/login_bg.svg) ;
-height: 100vh;
-/* background-position: center; */
-background-repeat: no-repeat;
-background-size: cover;
+.--registerfromouter {
+  background: url(./components/assets/login_bg.svg);
+  height: 100vh;
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: cover;
 
-display: flex;
-justify-content: center;
-align-items: center;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.--registerform{
-  background-color: #36393F ;
+.--registerform {
+  background-color: #36393f;
   padding: 10px 20px;
   border-radius: 10px;
   width: 450px;
   height: 450px;
 }
 
-.--registerbutton{
+.--registerbutton {
   background-color: #4350e2;
   color: white;
   padding: 10px;
-
 }
 
-.--registeremail{
-  color: #B9BBBE;
+.--registeremail {
+  color: #b9bbbe;
 }
 
-.--registerusername{
-  color:  #B9BBBE;
+.--registerusername {
+  color: #b9bbbe;
 }
 
-.--registerusername{
-  color: #B9BBBE;
+.--registerusername {
+  color: #b9bbbe;
 }
 
-.--registerheading{
-  color : #FFFFFF;
+.--registerheading {
+  color: #ffffff;
   text-align: center;
 }
 
 .--registerform input {
- padding: 12px 20px;
- border-color: #040405 ;
- border-radius: 3px;
+  padding: 12px 20px;
+  border-color: #040405;
+  border-radius: 3px;
 }
 
 .--alreadyaccount {
-  color: #00AFF4;
+  color: #00aff4;
   text-decoration: none;
   padding-top: 20px;
 }
 
-.--registerbutton{
+.--registerbutton {
   border: 0px;
   border-radius: 4px;
   padding: 15px;
