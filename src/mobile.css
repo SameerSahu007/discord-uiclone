@@ -1,0 +1,11 @@
+@media screen and (max-width: 725px) {
+  .--outerformcontainer {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+
+  form {
+    margin-right: 0;
+  }
+}
