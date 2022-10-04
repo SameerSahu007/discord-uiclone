@@ -1,4 +1,5 @@
-#A simple discord landing page clone created using ReactJS
+# A simple discord landing page clone created using ReactJS
+feel free to contribute
 
 # Getting Started with Create React App
 
