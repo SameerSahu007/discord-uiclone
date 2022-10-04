@@ -108,23 +108,22 @@ body {
 }
 
 .--sectiontwoheading {
-  width: 279px;
+  width: 33%;
   height: 391px;
-  margin-left: 45px;
-  margin-top: -110px;
+  /* margin-left: 6px; */
+  margin-bottom: 6%;
   /* flex: 1 1 50%; */
 }
 
 .--sectiontwoheading > h1 {
-  font-size: 50px;
-  word-wrap: break-word;
+  font-size: 46px;
+  /* word-wrap: break-word; */
 }
 
 .--sectiontwoheading > p {
   font-size: 20px;
-  word-wrap: break-word;
+  width: 91%;
 }
-
 .--sectionthree {
   display: flex;
   align-items: center;
@@ -171,10 +170,11 @@ body {
 }
 
 .sectionfourheading {
-  width: 279px;
+  width: 369px;
   height: 391px;
   margin-left: 45px;
-  margin-top: -250px;
+  /* margin-top: -250px; */
+  margin-bottom: 21%;
 }
 
 .sectionfourheading > h1 {
@@ -228,7 +228,7 @@ body {
 
 .--downloadsbuttone :hover {
   color: #0082e6;
-  box-shadow: 1px 1px #rgb(67, 68, 68)
+  box-shadow: 1px 1px rgba(67, 68, 68);
 }
 
 .--downloadicon {
@@ -236,7 +236,7 @@ body {
 }
 
 .--sectiontwo {
-  width: 1900px;
+  width: 1772px;
   height: 680px;
 }
 
