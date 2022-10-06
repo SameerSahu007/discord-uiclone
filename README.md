@@ -1,7 +1,25 @@
-# A simple discord landing page clone created using ReactJS
-feel free to contribute
+# Discord UI Clone
+<b>
+A simple discord landing page clone created using ReactJS.
+<b>
 
-# Getting Started with Create React App
+<br>
+<br>
+
+<img align="left" src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=SameerSahu007&repo=discord-uiclone&countColorcountColor&countColor=%237B1E7B"/>
+<img align="right" src="https://img.shields.io/github/repo-size/SameerSahu007/discord-uiclone?style=for-the-badge&logo=appveyor" alt="GitHub repo size"/>
+
+<img align="right" alt="discord-uiclone" src="https://socialify.git.ci/SameerSahu007/discord-uiclone/image?description=1&descriptionEditable=Discord%20UI%20clone%20in%20React%20&font=Raleway&forks=1&issues=1&logo=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcTIkB0CydleSLf3REskbWKAOmzcuAnzplToGA%26usqp%3DCAU&owner=1&pattern=Brick%20Wall&pulls=1&stargazers=1&theme=Dark" />
+
+<p align="center">
+<img src="https://forthebadge.com/images/badges/built-with-love.svg" alt=" forks"/>
+</p>
+
+## Want to contribute?
+- Take a look at [`contributing guidelines`](Contributing.md).
+- Refer [GitHub Flow](https://guides.github.com/introduction/flow). 
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
